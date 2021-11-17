@@ -50,7 +50,6 @@ body {
   width: 1200px;
   padding: 0px 15px;
   margin: 0 auto;
-  /* border: 1px solid tomato; */
 }
 
 .visually-hidden {
@@ -65,11 +64,6 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-
-/* .after-conteiner {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
 
 .list {
   list-style: none;
@@ -193,6 +187,8 @@ body {
 .hero-sect {
   padding: 200px 0px;
   background-color: var(--bg-second-col);
+
+  background-image: url(../img/hero-img.jpg);
 }
 .hero-conteiner {
   text-align: center;
