@@ -185,10 +185,15 @@ body {
 /* Hero-section */
 
 .hero-sect {
+  height: 600px;
+  min-width: 1600px;
   padding: 200px 0px;
   background-color: var(--bg-second-col);
 
   background-image: url(../img/hero-img.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .hero-conteiner {
   text-align: center;
@@ -219,7 +224,13 @@ body {
 
 .skills-list {
   display: flex;
-  /* border: 1px solid tomato; */
+}
+
+.skills-list-items::before {
+  content: "";
+  background-color: var(--hover-btn-col);
+  height: 50px;
+  width: auto;
 }
 
 .skills-list-items:not(:last-child) {
@@ -227,6 +238,11 @@ body {
 }
 .skills-list-items > div {
   width: 270px;
+}
+
+.skills-list-items::before {
+  background-color: var(--bg-lightgrey-col);
+  height: 30px;
 }
 
 .skills-list-items-tittle {
