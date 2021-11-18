@@ -152,9 +152,7 @@ body {
 
 .nav-list {
   display: flex;
-  
 }
-
 
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
@@ -180,31 +178,37 @@ body {
 
   color: var(--second-col-txt);
 }
+.list-item-contact::before {
+  display: inline-flex;
+  content: "";
+  justify-content: center;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-color: violet;
+}
+
 .active {
   color: var(--accent-col);
 }
 
-/* Hero-section */
-.overlay-hero{
- 
-}
-
 .hero-sect {
-  height: 600px; 
+  height: 600px;
   max-width: 1600px;
   padding: 200px 0px;
   margin: 0 auto;
   padding: 0 auto;
-  background-image:
-  linear-gradient( to right,
-  rgba(47, 48, 58, 0.4), 
-  rgba(47, 48, 58, 0.4) ),
-   url(../img/hero-img.jpg);
-   
-   background-size: contain; 
-   background-position: center;
-   background-repeat: no-repeat;
-  
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/hero-img.jpg);
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
   background-color: var(--bg-second-col);
 }
 
@@ -238,9 +242,6 @@ body {
 .skills-list {
   display: flex;
 }
-
-
-
 
 .skills-list-items:not(:last-child) {
   margin-right: 30px;
