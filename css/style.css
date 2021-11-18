@@ -152,7 +152,9 @@ body {
 
 .nav-list {
   display: flex;
+  
 }
+
 
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
@@ -226,12 +228,7 @@ body {
   display: flex;
 }
 
-.skills-list::after {
-  content: '';
- background-color: var(--hover-btn-col);
-  width: 24px;
-  height: 24px;
-}
+
 
 
 .skills-list-items:not(:last-child) {
