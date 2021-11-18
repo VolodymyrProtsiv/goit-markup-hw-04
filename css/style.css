@@ -251,8 +251,12 @@ body {
 }
 
 .skills-list-items::before {
+  content: "";
+  display: block;
   background-color: var(--bg-lightgrey-col);
-  height: 30px;
+  height: 120px;
+  margin-bottom: 20px;
+  border-radius: 4px;
 }
 
 .skills-list-items-tittle {
