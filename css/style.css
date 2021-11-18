@@ -185,13 +185,13 @@ body {
 /* Hero-section */
 
 .hero-sect {
-  height: 600px;
+  height: 600px; 
   min-width: 1600px;
   padding: 200px 0px;
   background-color: var(--bg-second-col);
 
   background-image: url(../img/hero-img.jpg);
-  background-size: contain;
+  background-size: contain; 
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -226,12 +226,13 @@ body {
   display: flex;
 }
 
-.skills-list-items::before {
-  content: "";
-  background-color: var(--hover-btn-col);
-  height: 50px;
-  width: auto;
+.skills-list::after {
+  content: '';
+ background-color: var(--hover-btn-col);
+  width: 24px;
+  height: 24px;
 }
+
 
 .skills-list-items:not(:last-child) {
   margin-right: 30px;
