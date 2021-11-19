@@ -238,21 +238,79 @@ body {
 .skills-list {
   display: flex;
 }
-
-
-
-
-.skills-list-items:not(:last-child) {
-  margin-right: 30px;
-}
-.skills-list-items > div {
+.skills-list-items  {
   width: 270px;
+
+  
 }
+
+
+
+
+ .skills-list-items:not(:last-child) {
+  margin-right: 30px;
+} 
+
 
 .skills-list-items::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
   background-color: var(--bg-lightgrey-col);
-  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
 }
+ /* Befor icond */
+.icon-locator::before{
+
+  content: '';
+  
+  border: 2px solid var(--hover-btn-col);
+  background-image: url(../img/portfolio1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+
+} 
+
+.icon-clock::before{
+  
+  content: '';
+  
+  border: 2px solid var(--hover-btn-col);
+  background-image: url(../img/portfolio2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+}
+
+.icon-laptop::before{
+  
+  content: '';
+  
+  border: 2px solid var(--hover-btn-col);
+  background-image: url(../img/portfolio2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+}
+.icon-spaceman::before{
+  
+  content: '';
+  
+  border: 2px solid var(--hover-btn-col);
+  background-image: url(../img/portfolio2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 70px 70px;
+
+}
+
+
+
 
 .skills-list-items-tittle {
   margin-bottom: 10px;
