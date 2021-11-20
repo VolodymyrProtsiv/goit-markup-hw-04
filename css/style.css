@@ -309,7 +309,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  background-color: var(--bg-lightgrey-coll);
+  /* background-color: var(--bg-lightgrey-coll); */
   color: var(--pr-col-txt);
 }
 .skills-list-items-par {
@@ -394,6 +394,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-col-txt);
 }
+/* uor-client */
+.our-clients {
+  padding: 94px 0px;
+}
 
 /* Footer */
 .footer {
@@ -435,6 +439,23 @@ body {
 .footer-link {
   font-weight: 400;
   color: var(--link-col);
+}
+
+/* Footer social network */
+.soc-conteiner {
+  display: flex;
+}
+.footer-logo-conteiner {
+  margin-right: 70px;
+}
+.social-network-tittle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--bg-pr-col);
 }
 
 /* PORTFOLIO  */
