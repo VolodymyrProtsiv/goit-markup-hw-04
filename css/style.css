@@ -428,9 +428,8 @@ body {
 .team-social-icon {
   fill: var(--icon-pr-col);
 }
-.team-social-icon:hover,
-.team-social-icon:focus {
-  fill: var(--bg-pr-col);
+.team-social-link:hover .team-social-icon {
+  fill: tomato;
 }
 
 /* uor-client */
