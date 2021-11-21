@@ -24,6 +24,7 @@
   --sl-filtr-col: #eeeeee;
   --hover-btn-col: #188ce8;
   --icon-pr-col: #afb1b8;
+  --footer-pr-icon: rgba(255, 255, 255, 0.1);
 }
 h1,
 h2,
@@ -73,6 +74,7 @@ body {
 .link {
   /* display: flex; */
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Logo*/
@@ -434,6 +436,34 @@ body {
 .our-clients {
   padding: 94px 0px;
 }
+.clients {
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+}
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--icon-pr-col);
+  border: 1px solid var(--icon-pr-col);
+}
+.clients-icon {
+  fill: currentColor;
+}
+.clients-link:hover,
+.clients-link:focus {
+  color: var(--hover-btn-col);
+  border: 1px solid var(--hover-btn-col);
+}
 
 /* Footer */
 .footer {
@@ -485,6 +515,8 @@ body {
   margin-right: 70px;
 }
 .social-network-tittle {
+  margin-bottom: 20px;
+
   font-weight: bold;
   font-size: 14px;
   line-height: 1.1;
@@ -493,7 +525,37 @@ body {
 
   color: var(--bg-pr-col);
 }
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+}
 
+.footer-social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+}
+.footer-social-item:last-child {
+  margin-right: 0px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--footer-pr-icon);
+  color: var(--icon-pr-col);
+}
+.footer-social-icon {
+  fill: currentColor;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-col);
+  color: var(--bg-pr-col);
+}
 /* PORTFOLIO  */
 .filtr {
   padding: 94px 0px;
