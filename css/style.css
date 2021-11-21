@@ -23,6 +23,7 @@
   --hed-sol-col: #ececec;
   --sl-filtr-col: #eeeeee;
   --hover-btn-col: #188ce8;
+  --icon-pr-col: #afb1b8;
 }
 h1,
 h2,
@@ -412,16 +413,24 @@ body {
 }
 
 .team-social-link {
-  display: block;
+  display: flex;
+  justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: violet;
+  background-color: transparent;
 }
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--accent-col);
+}
+.team-social-icon {
+  fill: var(--icon-pr-col);
+}
+.team-social-icon:hover,
+.team-social-icon:focus {
+  fill: var(--bg-pr-col);
 }
 
 /* uor-client */
