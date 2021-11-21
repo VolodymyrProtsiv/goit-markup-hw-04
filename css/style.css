@@ -420,16 +420,15 @@ body {
   height: 100%;
   border-radius: 50%;
   background-color: transparent;
+  color: var(--icon-pr-col);
+}
+.team-social-icon {
+  fill: currentColor;
 }
 .team-social-link:hover,
 .team-social-link:focus {
   background-color: var(--accent-col);
-}
-.team-social-icon {
-  fill: var(--icon-pr-col);
-}
-.team-social-link:hover .team-social-icon {
-  fill: tomato;
+  color: var(--bg-pr-col);
 }
 
 /* uor-client */
