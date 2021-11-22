@@ -112,7 +112,13 @@ body {
 .list-item:focus {
   color: var(--accent-col);
 }
+.postbox::before{
+  content:'';
+  width: 16px;
+  height: 12px;
 
+  background-image: url(../img/postbox.svg);
+}
 /* Button */
 .btn {
   font-weight: 700;
@@ -629,3 +635,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-col-txt);
 }
+
+.pl-tittle-list-item:hover,
+.pl-tittle-list-item:focus{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
