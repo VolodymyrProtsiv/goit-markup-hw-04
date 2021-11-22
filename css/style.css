@@ -184,11 +184,10 @@ body {
 .list-item-contact::before {
   display: inline-flex;
   content: "";
-  justify-content: center;
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  background-color: violet;
+  background-image: url(../img/postbox.svg);
 }
 
 .active {
