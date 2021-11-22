@@ -181,14 +181,6 @@ body {
 
   color: var(--second-col-txt);
 }
-.list-item-contact::before {
-  display: inline-flex;
-  content: "";
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  background-image: url(../img/postbox.svg);
-}
 
 .active {
   color: var(--accent-col);
