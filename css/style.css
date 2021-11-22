@@ -267,8 +267,7 @@ body {
 .icon-locator::before {
   content: "";
 
-  border: 2px solid var(--hover-btn-col);
-  background-image: url(../img/antenna\ .svg);
+  background-image: url(../img/antenna.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 70px 70px;
@@ -277,8 +276,7 @@ body {
 .icon-clock::before {
   content: "";
 
-  border: 2px solid var(--hover-btn-col);
-  background-image: url(../img/portfolio2.jpg);
+  background-image: url(../img/clock.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 70px 70px;
@@ -287,8 +285,7 @@ body {
 .icon-laptop::before {
   content: "";
 
-  border: 2px solid var(--hover-btn-col);
-  background-image: url(../img/portfolio2.jpg);
+  background-image: url(../img/diagram.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 70px 70px;
@@ -296,8 +293,7 @@ body {
 .icon-spaceman::before {
   content: "";
 
-  border: 2px solid var(--hover-btn-col);
-  background-image: url(../img/portfolio2.jpg);
+  background-image: url(../img/astronaut.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 70px 70px;
