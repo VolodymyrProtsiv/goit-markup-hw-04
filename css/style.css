@@ -181,12 +181,45 @@ body {
 }
 
 .list-item-contact {
-  display: block;
+  display: inline-flex;
+  align-items: center;
   padding-top: 35px;
   padding-bottom: 35px;
 
   color: var(--second-col-txt);
 }
+ .postbox::before{
+   display: inline-block;
+  content: '';
+
+  margin-right: 10px;
+  background-image: url(../img/postbox.svg);
+  width: 16px;
+  height: 12px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+.postbox:hover::before{
+  background-image: url(../img/postboxhover.svg);
+}
+
+.smartphone::before{
+  content: '';
+
+  margin-right: 10px;
+  background-image: url(../img/smartphone.svg);
+  width: 10px;
+  height: 16px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.smartphone:hover::before{
+  background-image: url(../img/smartphonehover.svg);
+}
+
+
 
 .active {
   color: var(--accent-col);
