@@ -189,10 +189,22 @@ body {
   color: var(--second-col-txt);
 }
 
-.icon-postbox {
+.icon-postbox,
+.icon-mobtel {
   fill: var(--second-col-txt);
   margin-right: 10px;
 }
+.icon-postbox:hover,
+.icon-postbox:focus,
+.icon-mobtel:hover,
+.icon-mobtel:focus {
+  fill: var(--accent-col);
+}
+
+/* .icon-mobtel {
+  fill: var(--second-col-txt);
+  margin-right: 10px;
+} */
 
 .active {
   color: var(--accent-col);
