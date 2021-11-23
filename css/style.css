@@ -166,6 +166,10 @@ body {
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
+.nav-list-item {
+  position: relative;
+}
+
 .n-link {
   display: block;
   padding: 35px 0px;
@@ -191,20 +195,15 @@ body {
 
 .icon-postbox,
 .icon-mobtel {
-  fill: var(--second-col-txt);
+  fill: currentColor;
   margin-right: 10px;
 }
 .icon-postbox:hover,
 .icon-postbox:focus,
 .icon-mobtel:hover,
 .icon-mobtel:focus {
-  fill: var(--accent-col);
+  color: var(--hover-btn-col);
 }
-
-/* .icon-mobtel {
-  fill: var(--second-col-txt);
-  margin-right: 10px;
-} */
 
 .active {
   color: var(--accent-col);
