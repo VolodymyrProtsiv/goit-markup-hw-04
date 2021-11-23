@@ -193,7 +193,13 @@ body {
   color: var(--second-col-txt);
 }
 
-.icon-postbox,
+.icon-postbox {
+  fill: currentColor;
+  margin-right: 10px;
+}
+.h-icon {
+  display: flex;
+}
 .icon-mobtel {
   fill: currentColor;
   margin-right: 10px;
